@@ -1,6 +1,18 @@
-Günümüzde çoğu kurumsal firmanın rekabet ortamında mevcut müşteriyi mutlu ederek elde tutmak yeni müşteri kazanmaktan daha önemlidir. 
-Müşteri hareketlerini inceleyerek terk etme ihtimali olan müşterilere ait profilleri çıkarıp terk etme olasılığı fazla olan müşterileri daha önceden tahmin etme işlemi Churn Analizi (Müşteri Kaybı Analizi) olarak adlandırılmaktadır. 
-Churn analizinin amacı, müşterinin firmayı terk etmeden ya da terk etmeye teşebbüs etmeden önce bu durumun farkında olmak ve ardından bu durumu önleyici çalışmalar halinde bulunmaktır.
-Var olan bir problemi istenilen amaç dahilinde çeşitli çözme yöntemleri vardır. Churn analizinde tahmin(regression) ya da sınıflandırma(classification) yöntemleri kullanılabilir.
-Projede sınıflandırma yöntemleri kullanılmıştır. Müşterinin terk etme durumu 1, terk etmeme durumu 0 olarak sınıflandırılacaktır. Veriseti Kaggle’dan temin edilmiştir. 
-10000 adet veriden oluşmaktadır
+GÃ¼nÃ¼mÃ¼zde Ã§oÄŸu kurumsal firmanÄ±n rekabet ortamÄ±nda mevcut mÃ¼ÅŸteriyi mutlu ederek elde tutmak yeni mÃ¼ÅŸteri kazanmaktan daha Ã¶nemlidir. 
+MÃ¼ÅŸteri hareketlerini inceleyerek terk etme ihtimali olan mÃ¼ÅŸterilere ait profilleri Ã§Ä±karÄ±p terk etme olasÄ±lÄ±ÄŸÄ± fazla olan mÃ¼ÅŸterileri daha Ã¶nceden tahmin etme iÅŸlemi Churn Analizi (MÃ¼ÅŸteri KaybÄ± Analizi) olarak adlandÄ±rÄ±lmaktadÄ±r. 
+Churn analizinin amacÄ±, mÃ¼ÅŸterinin firmayÄ± terk etmeden ya da terk etmeye teÅŸebbÃ¼s etmeden Ã¶nce bu durumun farkÄ±nda olmak ve ardÄ±ndan bu durumu Ã¶nleyici Ã§alÄ±ÅŸmalar halinde bulunmaktÄ±r.
+Var olan bir problemi istenilen amaÃ§ dahilinde Ã§eÅŸitli Ã§Ã¶zme yÃ¶ntemleri vardÄ±r. Churn analizinde tahmin(regression) ya da sÄ±nÄ±flandÄ±rma(classification) yÃ¶ntemleri kullanÄ±labilir.
+Projede sÄ±nÄ±flandÄ±rma yÃ¶ntemleri kullanÄ±lmÄ±ÅŸtÄ±r. 
+MÃ¼ÅŸterinin terk etme durumu 1, terk etmeme durumu 0 olarak sÄ±nÄ±flandÄ±rÄ±lacaktÄ±r. Veriseti Kaggleâ€™dan temin edilmiÅŸtir.
+
+10000 adet veriden oluÅŸmaktadÄ±r
+Veri Link: https://www.kaggle.com/shrutimechlearn/churn-modelling
+
+Age:YaÅŸ
+Tenure: Ne kadar sÃ¼redir firmada olduÄŸu
+Balance: Ne kadarlÄ±k hesabÄ± olduÄŸu
+NumOfProducts: KaÃ§ Ã¼rÃ¼n aldÄ±ÄŸÄ±
+HasCr: Kredi kartÄ± olup olmadÄ±ÄŸÄ±
+IsActive: Aktif olup olmadÄ±ÄŸÄ±
+EstimatedSalary: Tahmini maaÅŸ
+Exited: BÄ±rakÄ±p bÄ±rakmadÄ±ÄŸÄ± 
