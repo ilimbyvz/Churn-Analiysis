@@ -102,5 +102,5 @@ plt.title('Model loss')
 plt.ylabel('Loss')
 plt.xlabel('Epoch')
 plt.legend(['Train', 'Test'], loc='upper left')
-plt.show(),
+plt.show()
 plt.savefig("loss.png")
