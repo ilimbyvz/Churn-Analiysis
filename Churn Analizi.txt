@@ -1,0 +1,10 @@
+Nowadays, in the competitive environment of most corporate firms, it is more important to keep the existing customer happy by acquiring new customers.
+Churn Analysis (Customer Loss Analysis) is the process of estimating the customers who are likely to leave the profiles of the customers who are likely to leave by examining the customer movements.
+The purpose of the Churn analysis is to be aware of this situation before the customer leaves or attempts to leave the company, and then to take preventive actions.
+There are various methods of solving an existing problem for the intended purpose. Regression or classification methods can be used in Churn analysis.
+Classification methods were used in the project.
+The customer's abandonment status shall be classified as 1 and non-abandonment status as 0. Veriseti was obtained from Kaggle.
+
+Consists of 10000 pieces of data
+Data Link: https://www.kaggle.com/shrutimechlearn/churn-modelling
+
